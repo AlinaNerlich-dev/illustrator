@@ -1,0 +1,199 @@
+/* ########################### ALLGEMEIN ############################# */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    color: #202020;
+}
+
+.text{
+    width: 33vw;
+    margin: 5em 1em;  
+}
+
+h2{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.text p{
+    margin-bottom: 2em;
+    line-height: 2em;
+}
+
+.center{
+    width: 55vw;
+    text-align: center;
+    margin: 4em auto;
+}
+
+/* ########################### NAV ###################################### */
+nav{
+    width: 100vw;
+    height: 10vh;
+    text-transform: uppercase;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    float: right;
+    margin-right: 2em;
+
+}
+
+nav ul li {
+    margin: 1em;
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+nav ul a:hover{
+    border-bottom: 1px solid black;
+}
+
+/* ########################### THREE ARTICLE ############################## */
+#hero{
+    margin-top: 0;
+}
+
+#hero a {
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#black{
+    background-color: black;
+    color: white;
+}
+
+#white{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.15);
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5em;
+}
+
+article img{
+    height: 25em;
+    width: 22em;
+}
+
+/* ########################### THREE PICS ############################## */
+section#illustrations{
+    margin-top: 8em;
+}
+
+section#threePics{
+    display: flex; 
+    justify-content: center;
+}
+
+#threePics img{
+    height: 15em;
+    width: 17em;
+    margin: 0 5em;
+}
+
+/* ########################### SIX PICS ################################ */
+#examples{
+    width: 42vw; 
+    margin-top: 8em;
+    margin-bottom: 0;
+}
+
+#sixPics>div{
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+#sixPics img{
+    width: 40vw;
+    margin: 2em 0em;
+}
+
+#download{
+    width:44vw;
+}
+
+/* ########################### MEMBERSHIP ############################# */
+#price{
+    font-size: 3em;
+    margin: 1em;
+}
+
+.grey{
+    color: #d3d3d3;
+    margin:1em;
+}
+
+#membership{
+    background-color: #F5FBFE;
+    width: 20em;
+    padding: 4em 2em;
+}
+
+#membership ul{
+    margin-bottom: 2em;
+}
+
+#membership li{
+    list-style: none;
+    margin: .5em;
+}
+
+#button{
+    text-decoration: none;
+    background-color: #24bff2;
+    padding: .8em 3.5em;
+    border-radius: 5px;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* ########################### FOOTER ############################## */
+footer{
+    text-align: center;
+    margin: 6em auto;
+    margin-bottom: 2em;
+}
+
+#socialMedia a{
+    text-decoration: none;
+}
+
+#fb::before{
+    content:". ";
+    font-weight: bold;
+    color:#3b5998; 
+}
+
+#ig::before{
+    content:". ";
+    font-weight: bold;
+    color:#fcaf45; 
+}
+
+#tw::before{
+    content:". ";
+    font-weight: bold;
+    color:#55acee; 
+}
+
+#yt::before{
+    content:". ";
+    font-weight: bold;
+    color:#c4302b; 
+}
